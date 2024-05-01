@@ -9,14 +9,5 @@ sudo apt install zsh neovim neofetch micro bashtop exa curl wget tldr net-tools 
 # Configurar Zsh como shell padrão (opcional)
 chsh -s $(which zsh)
 
-# Instalar plugins para Neovim (opcional)
-curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-
-# Personalizar Zsh (opcional)
-cp ~/.oh-my-zsh/themes/agnoster.zsh-theme ~/.zshrc
-
-# Instalar plugins para Neovim (opcional)
-vim ~/.config/nvim/init.vim
-
 # Mensagem de finalização
 echo "Atualização e instalação dos programas concluída!"
